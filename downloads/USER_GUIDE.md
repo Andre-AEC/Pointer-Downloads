@@ -43,7 +43,7 @@ Your preferences are saved for your Windows account in `%APPDATA%\MouseHighlight
 
 ## Automatic start during screen sharing
 
-Check **Auto-enable during Teams/Zoom sharing (experimental)** in Pointer's settings window. Keep **Pointer Monitor** running in the system tray. When it detects sharing in the Windows desktop version of Teams or Zoom, it starts Pointer with the settings window minimized, regardless of **Minimize on manual open**.
+Check **Auto-enable during Teams/Zoom sharing (experimental)** in Pointer's settings window. Keep **Pointer Monitor** running in the system tray. When it detects sharing in the Windows desktop version of Teams or Zoom, it starts Pointer with the settings window minimized, regardless of **Minimize on manual open**. Opening Pointer yourself during a share brings the settings window forward and keeps it under your control.
 
 If the monitor started Pointer, it closes Pointer about five seconds after sharing stops. If you restore Pointer's window yourself, it leaves Pointer open. If you close Pointer during a share, the monitor waits until the next share to start it again. The shortcut remains available for manual control.
 

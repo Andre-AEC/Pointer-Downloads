@@ -1,5 +1,10 @@
 # Pointer by AEC Simple — Version History
 
+## Version 0.1.3
+
+- Fixed manual opening while the sharing monitor has already started Pointer: the settings window is brought forward, and the monitor leaves that instance open for the user.
+- Fixed selected circle and click ripple colors resetting when Windows supplied a named color such as Lime or Red.
+
 ## Version 0.1.2
 
 - Added an in-app Help window with the installed version in its header, plus links to the User Guide and Version History.
