@@ -4,7 +4,7 @@ Pointer makes your cursor easier to follow during presentations and screen shari
 
 ## Download
 
-The [public downloads folder](downloads/) contains the 64-bit Windows installer and the full user guide together. For a one-click download, use the [latest release](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest). The installer adds Pointer to your Start menu and Windows Installed apps, and starts its optional tray monitor at sign-in.
+The [public downloads folder](downloads/) contains the 64-bit Windows installer and the full user guide together. Use the [direct installer download](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest/download/Pointer-by-AEC-Simple-Setup.exe) to save the program. The installer adds Pointer to your Start menu and Windows Installed apps, and starts its optional tray monitor at sign-in.
 
 New to Pointer? Read the [user guide](downloads/USER_GUIDE.md) for setup, controls, screen sharing, troubleshooting, and removal.
 

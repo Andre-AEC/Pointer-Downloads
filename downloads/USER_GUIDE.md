@@ -2,7 +2,7 @@
 
 Pointer helps an audience follow your cursor during presentations and screen sharing. It draws a translucent circle around the pointer and can show a brief ripple when you left-click or right-click.
 
-This guide and the [installer file](Pointer-by-AEC-Simple-Setup.exe) are together in the public downloads folder.
+This guide and the installer file are together in the public downloads folder. Use the [direct installer download](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest/download/Pointer-by-AEC-Simple-Setup.exe) to save the actual program; saving the filename from GitHub's file list can save a webpage instead.
 
 ## Install and open
 
