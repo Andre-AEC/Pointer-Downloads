@@ -4,9 +4,9 @@ Pointer makes your cursor easier to follow during presentations and screen shari
 
 ## Download
 
-Get the Windows installer from the [latest release](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest). The installer adds Pointer to your Start menu and starts its optional tray monitor at sign-in.
+The [public downloads folder](downloads/) contains the Windows installer and the full user guide together. For a one-click download, use the [latest release](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest). The installer adds Pointer to your Start menu and starts its optional tray monitor at sign-in.
 
-New to Pointer? Read the [user guide](USER_GUIDE.md) for setup, controls, screen sharing, troubleshooting, and removal.
+New to Pointer? Read the [user guide](downloads/USER_GUIDE.md) for setup, controls, screen sharing, troubleshooting, and removal.
 
 Pointer requires the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0). The installer is unsigned, so Windows may ask you to confirm that you want to run it.
 
