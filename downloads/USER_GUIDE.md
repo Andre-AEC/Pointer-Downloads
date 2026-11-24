@@ -11,7 +11,7 @@ This guide and the installer file are together in the public downloads folder. U
 
 The installer includes the .NET components Pointer needs. You do not need to install the .NET Desktop Runtime separately.
 
-The installer also starts **Pointer Monitor** and adds it to Windows startup. Pointer Monitor appears in the system tray. Pointer's settings window appears on the taskbar and may start minimized; click its taskbar button to open it. The pointer effects are active whenever Pointer is running and their individual checkboxes are selected.
+The installer also starts **Pointer Monitor** and adds it to Windows startup. Pointer Monitor appears in the system tray. Pointer's settings window appears on the taskbar and opens visibly by default when you start it yourself. Monitor launches start minimized. The pointer effects are active whenever Pointer is running and their individual checkboxes are selected.
 
 ## Use Pointer
 
@@ -37,13 +37,15 @@ Changes take effect immediately and save automatically. There is no Save button.
 | **Circle color**, **Left click color**, **Right click color** | Click a color swatch to choose a color. |
 | **Toggle shortcut** | Choose a key combination to open or close Pointer, or choose **No Shortcut** to disable the shortcut. |
 | **Minimize on manual open** | Starts the settings window minimized when you open Pointer yourself. Leave it unchecked to show the window. The pointer effects still run. |
-| **Auto-enable during Teams/Zoom sharing (experimental)** | Lets Pointer Monitor start Pointer when it detects sharing. This is off by default. |
+| **Auto-enable during Teams/Zoom sharing (experimental)** | Lets Pointer Monitor start Pointer when it detects sharing. This is on by default. |
 
 Your preferences are saved for your Windows account in `%APPDATA%\MouseHighlighter\settings.json`.
 
+The initial preset uses a 50 px circle, 50% transparency, a green circle, blue left-click ripples, and pink right-click ripples. Both pointer effects and sharing detection start on. **Minimize on manual open** starts off.
+
 ## Automatic start during screen sharing
 
-Check **Auto-enable during Teams/Zoom sharing (experimental)** in Pointer's settings window. Keep **Pointer Monitor** running in the system tray. When it detects sharing in the Windows desktop version of Teams or Zoom, it starts Pointer with the settings window minimized, regardless of **Minimize on manual open**. Opening Pointer yourself during a share brings the settings window forward and keeps it under your control.
+Leave **Auto-enable during Teams/Zoom sharing (experimental)** checked in Pointer's settings window and keep **Pointer Monitor** running in the system tray. When it detects sharing in the Windows desktop version of Teams or Zoom, it starts Pointer with the settings window minimized, regardless of **Minimize on manual open**. Opening Pointer yourself during a share brings the settings window forward and keeps it under your control.
 
 If the monitor started Pointer, it closes Pointer about five seconds after sharing stops. If you restore Pointer's window yourself, it leaves Pointer open. If you close Pointer during a share, the monitor waits until the next share to start it again. The shortcut remains available for manual control.
 
