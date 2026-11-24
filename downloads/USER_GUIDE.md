@@ -22,7 +22,7 @@ The installer also starts **Pointer Monitor** and adds it to Windows startup. Po
 
 Opening Pointer again from the Start menu while it is already running brings its settings window forward.
 
-Click **Help** in the upper-right corner of Pointer's settings window for an in-app guide. Its header shows the installed version, and its **Full user guide** link opens this page.
+Click **Help** in the upper-right corner of Pointer's settings window for an in-app guide. Its header shows the installed version. **User Guide** opens this page, and **Version History** lists the additions in each release.
 
 ## Change settings
 
@@ -63,12 +63,8 @@ Detection looks for visible sharing controls in Teams and Zoom. It can miss a sh
 
 To update Pointer, run the newer setup file. Your settings are kept.
 
-There is currently no entry in Windows **Installed apps** for removal. To remove Pointer manually:
+To remove Pointer, open Windows **Settings → Apps → Installed apps**, find **Pointer by AEC Simple**, and choose **Uninstall**. You can also use **Control Panel → Programs and Features**. The uninstaller stops Pointer and its monitor, then removes the program, Start menu shortcuts, startup shortcut, and Installed apps entry.
 
-1. Close Pointer with its **Close** button. Right-click **Pointer Monitor** in the tray and choose **Exit monitor**.
-2. Delete `%LOCALAPPDATA%\Programs\Pointer by AEC Simple`.
-3. Delete **Pointer by AEC Simple** and **Pointer Monitor** shortcuts from `%APPDATA%\Microsoft\Windows\Start Menu\Programs`.
-4. Delete the **Pointer Monitor** shortcut from `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`.
-5. If you also want to remove saved preferences, delete `%APPDATA%\MouseHighlighter`.
+Your saved preferences remain available if you reinstall. To remove them too, delete `%APPDATA%\MouseHighlighter`.
 
 Made by [AEC Simple](https://aecsimple.com/).
