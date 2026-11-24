@@ -10,6 +10,12 @@
 ## Version 0.1.1
 
 - Bundled the .NET Desktop Runtime in the Windows installer, removing the separate runtime setup step.
-- Included the pointer circle, click ripples, live size and transparency controls, saved settings, and Teams/Zoom sharing monitor in the public download.
+
+## Version 0.1.0
+
+- Initial Windows release with the pointer circle and click ripples.
+- Added adjustable circle size, transparency, and colors, with settings that save automatically.
+- Added a customizable shortcut and experimental Teams/Zoom screen sharing monitor.
+- Added a Windows installer and Start menu shortcuts. This release required a separate .NET Desktop Runtime installation.
 
 See the [User Guide](USER_GUIDE.md) for installation and use.
