@@ -22,7 +22,7 @@ The installer also starts **Pointer Monitor** and adds it to Windows startup. Po
 
 Opening Pointer again from the Start menu while it is already running brings its settings window forward.
 
-Click **Help** in the upper-right corner of Pointer's settings window for an in-app guide. Its header shows the installed version. **User Guide** opens this page, and **Version History** lists the additions in each release.
+Click **Help** in the upper-right corner of Pointer's settings window for an in-app guide. Its header shows the installed version, and **User Guide** opens this page.
 
 ## Change settings
 
