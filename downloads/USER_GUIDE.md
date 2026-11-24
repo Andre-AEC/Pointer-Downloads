@@ -6,9 +6,10 @@ This guide and the [installer file](Pointer-by-AEC-Simple-Setup.exe) are togethe
 
 ## Install and open
 
-1. Install the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) if it is not already on your PC.
-2. Download [Pointer by AEC Simple Setup](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest/download/Pointer-by-AEC-Simple-Setup.exe) and run it. The installer is unsigned, so Windows may ask you to confirm that you want to run it.
-3. Open **Pointer by AEC Simple** from the Windows Start menu.
+1. On a 64-bit Windows PC, download [Pointer by AEC Simple Setup](https://github.com/Andre-AEC/Pointer-Downloads/releases/latest/download/Pointer-by-AEC-Simple-Setup.exe) and run it. The installer is unsigned, so Windows may ask you to confirm that you want to run it.
+2. Open **Pointer by AEC Simple** from the Windows Start menu.
+
+The installer includes the .NET components Pointer needs. You do not need to install the .NET Desktop Runtime separately.
 
 The installer also starts **Pointer Monitor** and adds it to Windows startup. Pointer Monitor appears in the system tray. Pointer's settings window appears on the taskbar and may start minimized; click its taskbar button to open it. The pointer effects are active whenever Pointer is running and their individual checkboxes are selected.
 
