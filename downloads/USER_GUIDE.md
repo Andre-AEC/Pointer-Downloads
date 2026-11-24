@@ -16,11 +16,13 @@ The installer also starts **Pointer Monitor** and adds it to Windows startup. Po
 ## Use Pointer
 
 - Move the mouse to show the circle. Left-click or right-click to show a ripple.
-- Press **Win+Shift+H** to open or close Pointer. You can change this shortcut in the settings window. The shortcut works while Pointer Monitor is running.
+- The default shortcut is **Ctrl+Alt+H** to open or close Pointer. You can change it or choose **No Shortcut** in the settings window. The shortcut works while Pointer Monitor is running.
 - Click **Close** in Pointer's window to exit Pointer. This does not exit Pointer Monitor.
 - To open Pointer from the tray, right-click **Pointer Monitor** and choose **Open Pointer**. Double-clicking its tray icon also opens Pointer.
 
 Opening Pointer again from the Start menu while it is already running brings its settings window forward.
+
+Click **Help** in the upper-right corner of Pointer's settings window for an in-app guide. Its header shows the installed version, and its **Full user guide** link opens this page.
 
 ## Change settings
 
@@ -33,15 +35,15 @@ Changes take effect immediately and save automatically. There is no Save button.
 | **Circle diameter** | Sets the circle size from 16 to 240 pixels. Use the slider or type a number. |
 | **Transparency** | Sets the effect transparency from 0% (most solid) to 90% (most see-through). Use the slider or type a number. |
 | **Circle color**, **Left click color**, **Right click color** | Click a color swatch to choose a color. |
-| **Toggle shortcut** | Choose a key combination to open or close Pointer. |
-| **Minimize on open** | Starts the settings window minimized when you open Pointer yourself. The pointer effects still run. |
+| **Toggle shortcut** | Choose a key combination to open or close Pointer, or choose **No Shortcut** to disable the shortcut. |
+| **Minimize on manual open** | Starts the settings window minimized when you open Pointer yourself. Leave it unchecked to show the window. The pointer effects still run. |
 | **Auto-enable during Teams/Zoom sharing (experimental)** | Lets Pointer Monitor start Pointer when it detects sharing. This is off by default. |
 
 Your preferences are saved for your Windows account in `%APPDATA%\MouseHighlighter\settings.json`.
 
 ## Automatic start during screen sharing
 
-Check **Auto-enable during Teams/Zoom sharing (experimental)** in Pointer's settings window. Keep **Pointer Monitor** running in the system tray. When it detects sharing in the Windows desktop version of Teams or Zoom, it starts Pointer with the settings window minimized, regardless of **Minimize on open**.
+Check **Auto-enable during Teams/Zoom sharing (experimental)** in Pointer's settings window. Keep **Pointer Monitor** running in the system tray. When it detects sharing in the Windows desktop version of Teams or Zoom, it starts Pointer with the settings window minimized, regardless of **Minimize on manual open**.
 
 If the monitor started Pointer, it closes Pointer about five seconds after sharing stops. If you restore Pointer's window yourself, it leaves Pointer open. If you close Pointer during a share, the monitor waits until the next share to start it again. The shortcut remains available for manual control.
 

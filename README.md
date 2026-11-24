@@ -14,7 +14,7 @@ The installer includes the .NET components Pointer needs, so no separate .NET in
 
 - Adjustable circle size and transparency, with sliders and number fields
 - Left and right click ripples
-- Customizable shortcut to open or close Pointer
+- Customizable shortcut to open or close Pointer, with a No Shortcut option
 - Optional, experimental detection of Teams and Zoom screen sharing
 
 The sharing detector may miss a share when presenter controls are hidden or after meeting app updates. When sharing a single app window, the meeting app may not capture Pointer's separate overlay.
